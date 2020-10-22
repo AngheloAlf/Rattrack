@@ -235,7 +235,7 @@ Pierre
 
 #-----------------------------------------------------
 #Gerudo Valley
-G Valley[shape="box", color="yellow", label="G Valley
+GValley[shape="box", color="yellow", label="G Valley
 
 Field
 G Fort
@@ -256,11 +256,11 @@ GS Hook x2
 "]
 
 #broken in chaos san
-G Valley -> Lake [ label = "" ]
+GValley -> Lake [ label = "" ]
 
 #-----------------------------------------------------
 #Gerudo Fortress
-G Fort[shape="box", color="yellow", label="G Fort
+GFort[shape="box", color="yellow", label="G Fort
 
 G Valley
 H Wasteland
@@ -280,7 +280,7 @@ GS Archery
 
 #-----------------------------------------------------
 #Haunted Wasteland
-H Wasteland[shape="box", color="yellow", label="H Wasteland
+HWasteland[shape="box", color="yellow", label="H Wasteland
 
 D Colossus
 G Fort
@@ -292,7 +292,7 @@ Carpet
 
 #-----------------------------------------------------
 #Desert Colossus
-D Colossus[shape="box", color="yellow", label="D Colossus
+DColossus[shape="box", color="yellow", label="D Colossus
 
 H Wasteland
 
