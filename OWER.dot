@@ -530,57 +530,79 @@ Prelude[ shape="box", color="white", label="Prelude
 DekuTree[ shape="box", color="forestgreen", label="Deku Tree
 
 Kokiri Forest
+
+Boss
 "]
 
 DodongosCavern[ shape="box", color="red", label="Dodongo's Cavern
 
 Trail
+
+Boss
 "]
 
 JabuJabu[ shape="box", color="blue", label="JabuJabu
 
 Fountain
+
+Boss
 "]
 
 ForestTemple[ shape="box", color="forestgreen", label="Forest Temple
 
 SF Meadow
+
+Boss
 "]
 
 FireTemple[ shape="box", color="red", label="Fire Temple
 
 Crater
+
+Boss
 "]
 
 IceCavern[ shape="box", color="blue", label="Ice cavern
 
 Fountain
+
+Iron boots chest
 "]
 
 WaterTemple[ shape="box", color="cyan", label="Water Temple
 
 Lake
+
+Boss
 "]
 
 GTG[ shape="box", color="yellow", label="GTG
 
 G Fort
+
+Last chest
 "]
 
 SpiritTemple[ shape="box", color="yellow", label="Spirit Temple
 
 D Colossus
 >Chests exit
+
+Boss
 "]
 
 BotW[ shape="box", color="orange", label="Well
 
 Kakariko
+
+Lens of truth
 "]
 
 ShadowTemple[ shape="box", color="orange", label="Shadow Temple
 
 Graveyard
+
+Boss
 "]
 
 }
