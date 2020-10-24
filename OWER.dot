@@ -494,6 +494,36 @@ Race 1
 Race 2
 "]
 
+Minuet[ shape="box", color="forestgreen", label="Minuet
+
+>exit
+"]
+
+Bolero[ shape="box", color="red", label="Bolero
+
+>exit
+"]
+
+Serenade[ shape="box", color="cyan", label="Serenade
+
+>exit
+"]
+
+Requiem[ shape="box", color="yellow", label="Requiem
+
+>exit
+"]
+
+Nocturne[ shape="box", color="orange", label="Nocturne
+
+>exit
+"]
+
+Prelude[ shape="box", color="white", label="Prelude
+
+>exit
+"]
+
 #-----------------------------------------------------
 #Dungeons
 
@@ -550,36 +580,6 @@ Kakariko
 ShadowTemple[ shape="box", color="orange", label="Shadow Temple
 
 Graveyard
-"]
-
-Minuet[ shape="box", color="forestgreen", label="Minuet
-
->exit
-"]
-
-Bolero[ shape="box", color="red", label="Bolero
-
->exit
-"]
-
-Serenade[ shape="box", color="cyan", label="Serenade
-
->exit
-"]
-
-Requiem[ shape="box", color="yellow", label="Requiem
-
->exit
-"]
-
-Nocturne[ shape="box", color="orange", label="Nocturne
-
->exit
-"]
-
-Prelude[ shape="box", color="white", label="Prelude
-
->exit
 "]
 
 }
