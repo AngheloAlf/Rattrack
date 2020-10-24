@@ -7,8 +7,7 @@ KokiriForest[ shape="box", color="forestgreen", label="Kokiri Forest
 
 Lost Woods
 LW Bridge
-
->Deku Tree
+Deku Tree
 
 >Midos
 >Shop
@@ -65,8 +64,7 @@ LWBridge -> LostWoods [ label = "", arrowhead="none", arrowtail="none" ]
 SFMeadow[shape="box", color="forestgreen", label="SF Meadow
 
 Lost Woods
-
->Forest Temple
+Forest Temple
 
 >Bomb G
 >Open G
@@ -86,8 +84,7 @@ Goron
 Kakariko
 Crater
 >Owl
-
->Dodongos
+Dodongos
 
 >Fairy
 >Bomb G
@@ -108,8 +105,7 @@ Crater[ shape="box", color="red", label="Crater
 
 Goron
 Trail
-
->Fire Temple
+Fire Temple
 
 >Fairy
 >Hammer G
@@ -192,9 +188,8 @@ GS
 Fountain[shape="box", color="blue", label="Fountain
 
 Domain
-
->Jabu
->Ice Cavern
+Jabu
+Ice Cavern
 
 >Fairy
 
@@ -214,8 +209,7 @@ Lake[shape="box", color="cyan", label="Lake
 Field
 Domain
 >Owl
-
->Water Temple
+Water Temple
 
 >Lab
 >Fishing
@@ -264,8 +258,7 @@ G Fort[shape="box", color="yellow", label="G Fort
 
 G Valley
 H Wasteland
-
->GTG
+GTG
 
 >Storms G
 
@@ -295,8 +288,7 @@ Carpet
 D Colossus[shape="box", color="yellow", label="D Colossus
 
 H Wasteland
-
->Spirit Temple
+Spirit Temple
 
 >Fairy
 >Strength G
@@ -400,8 +392,7 @@ Kakariko[ shape="box", color="orange", label="Kakariko
 Trail
 Graveyard
 Field
-
->Well
+Well
 
 >Impas House
 >Impas Back
@@ -434,8 +425,7 @@ GS Impas
 Graveyard[ shape="box", color="orange", label="Graveyard
 
 Kakariko
-
->Shadow
+Shadow
 
 >Hut
 >Shield Grave
@@ -502,6 +492,64 @@ Windmill Song
 Windmill PoH
 Race 1
 Race 2
+"]
+
+#-----------------------------------------------------
+#Dungeons
+
+DekuTree[ shape="box", color="forestgreen", label="Deku Tree
+
+Kokiri Forest
+"]
+
+DodongosCavern[ shape="box", color="red", label="Dodongo's Cavern
+
+Trail
+"]
+
+JabuJabu[ shape="box", color="blue", label="JabuJabu
+
+Fountain
+"]
+
+ForestTemple[ shape="box", color="forestgreen", label="Forest Temple
+
+SF Meadow
+"]
+
+FireTemple[ shape="box", color="red", label="Fire Temple
+
+Crater
+"]
+
+IceCavern[ shape="box", color="blue", label="Ice cavern
+
+Fountain
+"]
+
+WaterTemple[ shape="box", color="cyan", label="Water Temple
+
+Lake
+"]
+
+GTG[ shape="box", color="yellow", label="GTG
+
+G Fort
+"]
+
+SpiritTemple[ shape="box", color="yellow", label="Spirit Temple
+
+D Colossus
+"]
+
+BotW[ shape="box", color="orange", label="Well
+
+Kakariko
+"]
+
+ShadowTemple[ shape="box", color="orange", label="Shadow Temple
+
+Graveyard
 "]
 
 Minuet[ shape="box", color="forestgreen", label="Minuet
