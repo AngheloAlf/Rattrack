@@ -521,6 +521,7 @@ class TrackerCanvas(Canvas):
 
     def menu(self, event):
         popup = Menu(window, tearoff=0)
+        submenus = dict()
         space = True
 
         clicked = self.svg_get_clicked_thing(event.x, event.y)
@@ -547,10 +548,20 @@ class TrackerCanvas(Canvas):
         if space:
             for n in world.get_node_list():
                 if not n.get_name() in roots and n.get("label") != "\"?\"":
-                    def add_command(name):
-                        popup.add_command(label=interiorss[n.get_name()]["title"], \
-                                          command = lambda : self.add_root(name))
-                    add_command(n.get_name())
+                    def add_command(pop, name):
+                        pop.add_command(label=interiorss[n.get_name()]["title"], \
+                                        command = lambda : self.add_root(name))
+                    sub_name = n.get("submenu")
+                    if sub_name is not None:
+                        # Adds a submenu category
+                        sub_name = sub_name.strip('"')
+                        if sub_name not in submenus:
+                            submenus[sub_name] = Menu(window, tearoff=False)
+                            popup.add_cascade(label=sub_name, menu=submenus[sub_name])
+                        add_command(submenus[sub_name], n.get_name())
+                    else:
+                        # Add normal option to menu.
+                        add_command(popup, n.get_name())
 
         popup.add_separator()
         popup.add_command(label="Zoom In (+)", command = lambda : self.zoom_in())
