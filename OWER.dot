@@ -307,7 +307,7 @@ GS Hill
 Market[ submenu="Hyrule", shape="box", color="white", label="Market
 
 Street
-Temple
+Outside Temple
 Castle
 
 >Bazaar
@@ -353,11 +353,10 @@ Field
 
 #-----------------------------------------------------
 #Outside Temple of Time
-Temple[ submenu="Hyrule", shape="box", color="white", label="Temple
+OutsideTemple[ submenu="Hyrule", shape="box", color="white", label="Outside Temple
 
 Market
-
->Temple
+Temple of Time
 "]
 
 #-----------------------------------------------------
@@ -549,6 +548,14 @@ JabuJabu[ shape="box", color="blue", label="JabuJabu
 Fountain
 
 Boss
+"]
+
+TempleOfTime[ shape="box", color="forestgreen", label="Temple Of Time
+
+Outside Temple
+
+Altar
+Master sword
 "]
 
 ForestTemple[ shape="box", color="forestgreen", label="Forest Temple
