@@ -233,7 +233,7 @@ GValley[ submenu="Gerudo", shape="box", color="yellow", label="G Valley
 
 Field
 G Fort
-Lake
+>Lake
 
 >Tent
 >Storms G
@@ -250,7 +250,7 @@ GS Hook x2
 "]
 
 #broken in chaos san
-GValley -> Lake [ label = "" ]
+#GValley -> Lake [ label = "" ]
 
 #-----------------------------------------------------
 #Gerudo Fortress
@@ -550,7 +550,7 @@ Fountain
 Boss
 "]
 
-TempleOfTime[ submenu="Dungeons", shape="box", color="forestgreen", label="Temple Of Time
+TempleOfTime[ submenu="Dungeons", shape="box", color="white", label="Temple Of Time
 
 Outside Temple
 
